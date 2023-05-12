@@ -80,7 +80,6 @@ video{
 }
 
 .o_si img{
-    width: 1000px;
     border-radius: 20px;
     width: 100%;
 }
@@ -106,4 +105,103 @@ footer{
 .pp img{
     width: 300px;
 margin: 70px 0;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: #013668;
+    }
+
+    .home{
+        display: block;
+        background-color: white;
+    }
+
+    .home .menus ul{
+        margin-top: 0;
+        padding: 0 0 0 20px;
+    }
+
+    .logo img{
+        width: 100px;
+        height: 70px;
+    }
+
+    .menus{
+        display: flex;
+        font-size: 12px;
+        background-color: white;
+    }
+
+    .menus a{
+        color: black;
+        display: flex;
+        font-weight: 600;
+        transition: 1s;
+    }
+
+    .menus a:hover{
+        color: #0e8aff;
+        transition: 1s;
+    }
+
+    video{
+        margin: 0;
+    }
+
+    .fase2{
+        display: block;
+    }
+
+    .perfect img{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        transition: 1s;
+    }
+
+    .perfect img:hover{
+        opacity: .6;
+        width: 100%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+
+    .papu img{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        transition: 1s;
+    }
+
+    .papu img:hover{
+        opacity: .6;
+        width: 100%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+
+    .o_si img{
+        width: 100%;
+    }
+
+    .o_si img:hover{
+        width: 100%;
+        opacity: .6;
+        transition: 1s;
+    }
+
+    footer{
+
+        background-color: #013668;    
+        display: flex;
+    }
+
+    .pp img{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
 }
